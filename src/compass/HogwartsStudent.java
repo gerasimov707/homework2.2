@@ -48,7 +48,7 @@ public abstract class HogwartsStudent {
     //public void compareTo(HogwartsStudent hogwartsStudent){
     @Override
     public String toString() {
-        return String.format("student %s; sila magii: %d; sila transges:%d", name, magic,trasgression);
+        return String.format("student %s; sila magii: %d; sila transges:%d",name, magic,trasgression);
 
     }
 }

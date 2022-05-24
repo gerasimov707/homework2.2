@@ -62,6 +62,6 @@ public class RavenclawStudent extends HogwartsStudent {
     }
     @Override
     public String toString() {
-        return String.format("%s; ym:%d; mydrost:%d; soobrazitelnost:%d; tvorchestvo:%d", cleverness, wisdom, wit, creativity);
+        return String.format("%s; ym:%d; mydrost:%d; soobrazitelnost:%d; tvorchestvo:%d",super.toString(), cleverness, wisdom, wit, creativity);
     }
 }
